@@ -1,5 +1,5 @@
 # Sprint Front End e Web Development
-> Resolução da Global Solution por: Pedro Henrique Batista Bergamin, 559443 | Luis Filipe Crivellaro, 560877 | Luigi Thiengo Pires, 560755 | Felipe Silva, 559848 | Rafael Mandel, 560333.
+> Resolução da Sprint por: Pedro Henrique Batista Bergamin, 559443 | Luis Filipe Crivellaro, 560877 | Luigi Thiengo Pires, 560755 | Felipe Silva, 559848 | Rafael Mandel, 560333.
 
 Sistema de Gerenciamento de Senhas: Agilidade no Atendimento <br/>
 O Sistema de Gerenciamento de Senhas do Hospital Sabará organiza o fluxo de pacientes por meio de um formulário digital que coleta informações básicas. Com isso, realiza uma triagem automática, priorizando urgências e otimizando o atendimento. Essa solução reduz filas e melhora a eficiência, garantindo conforto e qualidade no cuidado médico.
