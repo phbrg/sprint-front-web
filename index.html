@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Sabará</title>
+  <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+  <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+</head>
+<body>
+  <header>
+    <img src="./assets/images/logo.png" alt="logo" class="logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">Sobre</a>
+      <a class="senha" href="#queue">Registrar Senha</a>
+    </nav>
+  </header>
+  <section class="main">
+    <div class="texts">
+      <h1>Sistema de Fila <span>Hospital Sabará</span></h1>
+      <h2>Registre sua senha pelo nosso sistema e seja atendido com <span>mais agilidade</span>.</h2>
+    </div>
+    <div class="buttons">
+      <a class="btn a" href="#queue">Registrar Senha</a>
+      <a class="btn b" href="#about">Sobre o Sistema</a>
+    </div>
+  </section>
+  <section id="about">
+    <h1>Sobre o Sistema de Fila</h1>
+    <div class="box-holder">
+      <div class="box">
+        <h1>Como o sistema funciona?</h1>
+        <p>O sistema opera de forma prática e eficiente. O paciente preenche um formulário digital com informações básicas, como o motivo da consulta, o tempo desde o início do problema e o estado atual do paciente. Com esses dados, o sistema realiza uma triagem automática, classificando os casos por prioridade e encaminhando os pacientes de forma organizada. Isso garante que os atendimentos mais urgentes sejam priorizados, reduzindo o tempo de espera e otimizando os recursos do hospital para um cuidado mais rápido e eficaz.</p>
+      </div>
+      <div class="box b">
+        <h1>Porque o sistema de fila existe?</h1>
+        <p>O sistema foi desenvolvido para transformar a experiência de atendimento no pronto-socorro, resolvendo o problema das longas filas que impactavam negativamente pacientes e equipes médicas. Ele organiza o fluxo de pessoas, permitindo a priorização eficiente dos casos mais urgentes e reduzindo o tempo de espera. Além disso, o sistema melhora o uso dos recursos do hospital, como profissionais de saúde e infraestrutura, otimizando cada etapa do processo de atendimento. Essa solução não apenas oferece mais conforto e agilidade para os pacientes, mas também contribui para um ambiente hospitalar mais eficiente, seguro e focado na qualidade do cuidado.</p>
+      </div>
+      <div class="box">
+        <h1>Impactos no atendimento.</h1>
+        <p>O sistema revolucionou a forma como o atendimento é realizado no pronto-socorro, oferecendo organização e eficiência ao fluxo de pacientes. Com a eliminação de filas extensas, o hospital conseguiu priorizar casos de maior urgência de maneira ágil, reduzindo significativamente o tempo de espera. Além disso, o sistema permite uma gestão mais estratégica dos recursos disponíveis, garantindo que médicos e equipes de saúde estejam alocados conforme a demanda. Dessa forma, os pacientes são atendidos de forma mais rápida e humanizada, com maior precisão no diagnóstico e no encaminhamento, elevando a qualidade geral do atendimento no hospital.</p>
+      </div>
+    </div>
+  </section>
+  <section id="queue">
+    <h1>Registrar senha</h1>
+    <h2><span>ATENÇÃO:</span> preencher os dados apenas do paciente.</h2>
+    <form action="senha.html">
+      <label for="nome">
+        Nome:
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
+      </label>
+      <label for="idade">
+        Idade:
+        <input type="number" name="idade" id="idade" placeholder="Digite a sua idade" required>
+      </label>
+      <label for="cpf">
+        CPF:
+        <input type="number" name="cpf" id="cpf" placeholder="Digite o seu CPF" required>
+      </label>
+      <label for="convenio">
+        Qual o seu convenio?
+        <select name="convenio" id="convenio" required>
+          <option value="saocristovao">São Cristovão</option>
+          <option value="bradesco">Bradesco</option>
+          <option value="unimed">Unimed</option>
+          <option value="amil">Amil</option>
+          <option value="np">Não Possui</option>
+          <option value="outros">Outros</option>
+        </select>
+      </label>
+      <label for="nconvenio">
+        Numero do convenio:
+        <input type="number" name="nconvenio" id="nconvenio" placeholder="Digite o numero do convenio" required>
+      </label>
+      <label for="ocorrido">
+        Ocorrido:
+        <input type="text" name="ocorrido" id="ocorrido" placeholder="Digite o ocorrido" required>
+      </label>
+      <label for="descricao">
+        Descreva o ocorrido com detalhes:
+        <textarea name="descricao" id="descricao" placeholder="Digite a descrição" rows="5" required></textarea>
+      </label>
+      <button>Registrar senha</button>
+    </form>
+  </section>
+  <footer>
+    <img src="./assets/images/logo.png" alt="logo" class="logo">
+    <nav>
+      <a href="#">Home</a>
+    </nav>
+  </footer>
+</body>
+</html>
